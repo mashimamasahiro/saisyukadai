@@ -1,0 +1,337 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+
+body {
+    font-family:"Popins",sans-serif;
+    color: #333333;
+    font-size: 1.6rem;
+    }
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* フォントサイズの指定 */
+.fontsize40{
+    font-size: 40px;
+}
+
+.fontsize30{
+    font-size: 30px;
+}
+
+.fontsize24{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fontsize21{
+    font-size: 21px;
+}
+
+.fontsize18{
+    font-size: 18px;
+}
+
+.fontsize16{
+    font-size: 16px;
+}
+
+.fontsize14{
+    font-size: 14px;
+}
+
+.yellow{
+    color:#ffd61a ;
+}
+
+.green{
+    color:#23820b8b ;
+}
+
+.white{
+    color: white;
+}
+
+/* 余白の指定 */
+.margin-auto{
+    width: 800px;
+    margin: auto;
+}
+
+.margin-center{
+    text-align: center;
+}
+
+.margin-below120{
+    margin: 0 0 120px;
+}
+
+.margin-below80{
+    margin: 0 0 80px;
+}
+
+.margin-below60{
+    margin: 0 0 60px;
+}
+
+.margin-below40{
+    margin: 0 0 40px;
+}
+
+.margin-below30{
+    margin: 0 0 30px;
+}
+
+.margin-below10{
+    margin: 0 0 10px;
+}
+
+.margin-top6030{
+    margin: 60px 0 30px;
+}
+
+.margin-top6060{
+    margin: 60px 0 60px;
+}
+
+.margin-top3030{
+    margin: 30px 0 30px;
+}
+
+.padding3030{
+    padding: 30px 30px;
+}
+
+.padding6060{
+    padding: 60px 60px;
+}
+
+.padding6030{
+    padding: 60px 30px;
+}
+
+.padding12040{
+    padding: 120px 40px;
+}
+
+.padding120120{
+    padding: 120px 120px;
+}
+
+/* 背景色の指定 */
+.back1{
+    background-color: #707070;
+}
+
+.back2{
+    background-color: #fafafa;
+}
+
+/* ボタンの設定 */
+.btn{
+    display: block;
+    width: 200px;
+    height: 20px;
+    padding: 10px 0;
+    background-color: #0c69317c; ;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+/* ボタンの設定2 */
+.logbtn{
+	position: flex;
+	top: 1rem;
+	right: 1rem;
+	background-color: #0c69317c;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+
+}
+
+/* ボタンの設定3 */
+.btn3{
+    display: block;
+    width: 100px;
+    height: 20px;
+    padding: 10px 0;
+    background-color: #f8fef8 ;
+    color:rgba(255, 255, 255, 0.068);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+/* ボタンの設定4 */
+.btn4{
+    display: block;
+    width: 200px;
+    height: 20px;
+    padding: 10px 0;
+    background-color: #0c69317c; ;
+    color:#fff;
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+}
+
+/* ボタンの設定 */
+.btn5{
+    display: block;
+    width: 200px;
+    height: 20px;
+    padding: 10px 0;
+    background-color: #0c69317c; ;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+/* 019 */
+.btn019 a {
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+}
+.btn019 a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 2rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+}
+.btn019 a:hover {
+  background: #6bb6ff;
+  color: #FFF;
+}
+.btn019 a:hover:after {
+  right: 1.4rem;
+}
+
+
+/* About写真横ならびの設定 */
+.about-list{
+    display: flex;
+    justify-content: center;
+}
+
+.about-item{
+    width: auto;
+    margin: 40px 0 60px;
+}
+
+
+
+/* ニュース横ならびの設定 */
+.news-list{
+    display: flex;
+    justify-content: center;
+}
+.news-item{
+    width: 300px;
+    margin: 0 15px 0;
+}
+
+
+.price-list{
+    overflow-x:scroll;
+    text-align:center;
+}
+
+/* メニュー横ならびの設定 （右寄せ）*/
+.menu-list{
+    display: flex;
+    justify-content: end;
+}
+.menu-item{
+     margin: 50px 25px 50px;
+}
+
+.top-list{
+    display: flex;
+}
+
+/* Course説明の横ならびの設定 */
+.course-list{
+    display: flex;
+    justify-content: center;
+}
+.course-item{
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+
+
+/* TOP写真に文字を重ねる */
+.box{
+    position: relative;
+}
+.center1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.center2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/*  çøntact*/
+.form-wrapper{
+    width: 560px;
+    margin: auto;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-title{
+    width: 152px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-item{
+    width: 388px;
+    margin: 0 0 32px;
+}
+
+
+
+
+
